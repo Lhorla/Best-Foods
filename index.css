@@ -8,6 +8,20 @@ body {
     background-color: blanchedalmond;
 }
 
+.heading {
+    width: 100%;
+    display: block;
+    margin-top: 1rem;
+}
+
+.heading h1 {
+    text-align: center;
+    color: blueviolet;
+    padding: 1rem;
+    font-size: 50px;
+    margin-top: 1rem;
+}
+
 .wrapper {
     background-color: black;
     margin: 2rem;
@@ -15,25 +29,11 @@ body {
     height: 110vh;
 }
 
-.heading {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem;
-}
-
-.heading h1 {
-    color: blueviolet;
-    padding: 1rem;
-    font-size: 50px;
-    margin: 1rem;
-}
-
 .gallery-img {
     display: none;
     max-height: 600px;
     width: 100%;
+    margin-top: 6rem;
 }
 
 .active {
@@ -84,7 +84,7 @@ body {
 
 @media only screen and (max-width: 425px) {
     .wrapper {
-        max-width: 100%;
+        max-width: 87%;
         height: 120vh;
     }
     .heading h1 {
@@ -100,7 +100,7 @@ body {
         width: auto;
     }
     .active {
-        height: 80vh;
+        height: 60vh;
     }
     .btns {
         margin-top: 7rem;
