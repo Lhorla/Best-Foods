@@ -91,6 +91,7 @@ body {
 @media only screen and (max-width: 425px) {
     .wrapper {
         max-width: 87%;
+        height: 100vh;
     }
     .heading h1 {
         font-size: 25px;
@@ -99,5 +100,12 @@ body {
     }
     .gallery-img {
         width: 80%;
+    }
+    .image-gallery {
+        height: 60vh;
+        width: auto;
+    }
+    .active {
+        height: 80vh;
     }
 }
