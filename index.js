@@ -24,4 +24,3 @@ nextButton.addEventListener('click', function() {
         nextButton.disabled = true;
     }
 });
-    
