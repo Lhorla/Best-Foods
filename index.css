@@ -85,7 +85,7 @@ body {
 @media only screen and (max-width: 425px) {
     .wrapper {
         max-width: 87%;
-        height: 100vh;
+        height: 120vh;
     }
     .heading h1 {
         font-size: 25px;
