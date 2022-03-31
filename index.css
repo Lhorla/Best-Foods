@@ -82,11 +82,7 @@ body {
     cursor: not-allowed;
 }
 
-@media (min-width: 1080px) {
-    .bcd {width: 50%;}
-    .bcd:nth-child(odd) div {margin-left: 10px;margin-right: 5px;}
-    .bcd:nth-child(even) div {margin-left: 5px;margin-right: 10px;}
-}
+
 
 @media only screen and (max-width: 425px) {
     .wrapper {
