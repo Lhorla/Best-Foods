@@ -12,6 +12,10 @@ prevButton.addEventListener('click', function() {
     if (currentlySelected === 0) {
         prevButton.disabled = true;
     }
+
+    if (currentlySelected < galleryImages.length) {
+        nextButton.disabled = false;
+    }
 });
 
 nextButton.addEventListener('click', function() {
