@@ -96,8 +96,8 @@ body {
         width: 80%;
     }
     .image-gallery {
-        height: 60vh;
-        width: auto;
+        height: 50vh;
+        width: 80vw;
     }
     .active {
         height: 60vh;
